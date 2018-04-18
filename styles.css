@@ -1,5 +1,5 @@
 body {
-  background-color: #ecf2f7;
+  background-color: #354052;
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
 }
@@ -133,7 +133,7 @@ body {
 
 /*Start of right side of web page*/
 
-.right-side {
+.right-side-page {
   position: absolute;
   right: 0;
   top: 0;
@@ -347,13 +347,17 @@ body {
 
 .main-content {
   padding: 3em 2em 0 2em;
+  background-color: #ecf2f7;
 }
+
+/*Start of main page graphs area*/
 
 .graphs-and-buttons {
   border-bottom: 2px solid #d2dae2;
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .pie-container {
@@ -426,9 +430,316 @@ body {
   width: 3em;
 }
 
+/*Start of main page primary content*/
 
-
-
-@media only screen and (max-width: 1050px) {
-  /*make break here so to keep info inline*/
+strong {
+  font-weight: 700;
 }
+
+.main-page-container {
+  display: flex;
+  padding-bottom: 3em;
+}
+
+.main-page-content {
+  width: 66.66%;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.main-page-employee-info {
+  display: flex;
+  padding: 1.8em 0;
+  margin: 0 2em;
+  border-bottom: 2px solid #eef2f5;
+}
+
+.top-info-main-page {
+ background-color: #6f7e95;
+ display: flex;
+ align-items: center;
+ padding: 1.3em 2em;
+ border-radius: .5em .5em 0 0;
+}
+
+.top-main-content-heading {
+  color: white;
+  margin-right: 4%;
+  font-weight: 700;
+}
+
+.edit-button {
+  display: flex;
+  align-items: center;
+  background-color: #7e8ba0;
+  color: white;
+  border: none;
+  height: 3em;
+  width: 6em;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.edit-button:hover {
+  background-color: #38404c;
+}
+
+.edit-button-icon {
+  background: url('icons/pencil-white.svg') no-repeat center;
+  background-size: cover;
+  margin: 0 0.5em 0 0.2em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+.bottom-info-li {
+  display: flex;
+  margin: 0 2em;
+  padding: 1.5em 0;
+}
+
+.bottom-info-heading {
+  font-weight: 700;
+  color: #6f7e95;
+  width: 30%;
+}
+
+.main-content-headings {
+  color: #6f7e95;
+  font-weight: 700;
+  width: 30%;
+}
+
+.main-paragraph-info {
+  width: 70%;
+  color: #4e515e;
+}
+
+.main-content-li-picture {
+  background: url('https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-futurama-billy-west.jpg') no-repeat center;
+  background-size: cover;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  margin-right: 2%;
+}
+
+.li-with-image-and-content {
+  display: flex;
+  align-items: center;
+  padding: 1.8em 0;
+  margin: 0 2em;
+  border-bottom: 2px solid #eef2f5;
+  color: #4e515e;
+}
+
+/*Start of social media section of page*/
+
+.main-page-socialmedia {
+  width: 33.33%;
+  margin-left: 3em;
+}
+
+.social-media-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-button-common-peram {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  font-size: 1em;
+  font-weight: 900;
+  padding: 1.5em 10%;
+  border-radius: .5em;
+  margin-bottom: 1em;
+}
+
+.facebook-button {
+  background-color: #496ec1;
+}
+
+.icons {
+  width: 1.2em;
+  height: 1.2em;
+  margin-right: 18%;
+}
+
+.facebook-icon {
+  background: url('icons/facebook-logo.svg') no-repeat center;
+  background-size: contain;
+}
+
+.twitter-button {
+  background-color: #00aaef;
+}
+
+.twitter-icon {
+  background: url('icons/twitter-logo.svg') no-repeat center;
+  background-size: contain;
+}
+
+.linkedin-button {
+  background-color: #0382be;
+}
+
+.linkedin-icon {
+  background: url('icons/linkedin-logo.svg') no-repeat center;
+  background-size: contain;
+}
+
+/*Section with resume and links to job posting*/
+
+.bottom-page-info-containers {
+  margin-top: 3em;
+}
+
+.resume-misc-content-header {
+  color: #4e515e;
+  font-weight: 700;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.globe-icon {
+  background: url('icons/link-to-job.svg') no-repeat center;
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: .5em;
+}
+
+.cabinet-icon {
+  background: url('icons/button-widget.svg') no-repeat center;
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: .5em;
+}
+
+.plane-icon {
+  background: url('icons/upload-resume.svg') no-repeat center;
+  background-size: contain;
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: .5em;
+}
+
+.bottom-page-paragraph {
+  color: #4e515e;
+  margin: 1em 0;
+}
+
+.bottom-page-info-links {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  border-radius: .5em;
+  height: 3em;
+}
+
+.bottom-page-textlinks {
+  color: #6f7a8b;
+  text-indent: 1em;
+  font-weight: 700;
+  font-size: 1em;
+  overflow: hidden;
+}
+
+.copy-buttons {
+  width: 5em;
+  color: white;
+  border-radius: 0 .5em .5em 0;
+  height: inherit;
+  background-color: #47bac1;
+  font-size: .7em;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1150px) {
+  .sub-content-top-container {
+    flex-direction: column;
+  }
+
+  .buttons-box {
+    margin-top: 2em;
+  }
+
+  .graphs-and-buttons {
+    flex-direction: column;
+  }
+
+  .pie-container {
+    width: 100%;
+  }
+
+  .bar-container {
+    width: 100%;
+    margin-top: 2em;
+  }
+
+  .bar-graph {
+    margin-bottom: 1em;
+  }
+
+  .main-page-container {
+    flex-direction: column;
+  }
+
+  .main-page-content {
+    width: 100%;
+  }
+
+  .main-page-socialmedia {
+    width: 100%;
+    margin: 2em 0 0 0; 
+  }
+
+  .social-media-buttons {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .icons {
+    margin-right: 7%;
+  }
+
+  .bottom-page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .bottom-page-info-containers {
+    margin: 2em 0;
+    width: 30%;
+  }
+
+  .social-media-button-common-peram {
+    padding: 1em;
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .left-side {
+    display: none;
+  }
+
+  .right-side-page {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+
+}
+
+
+
+
+
