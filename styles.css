@@ -326,6 +326,10 @@ body {
   padding-top: 4em;
 }
 
+.small-tab-for-break {
+  display: none;
+}
+
 .tabs {
   border-bottom: .1em solid transparent;
   color: #8a95a5;
@@ -736,10 +740,135 @@ strong {
 }
 
 @media only screen and (max-width: 780px) {
+  body {
+    font-size: 1.3em;
+  }
 
+  .search::placeholder {
+    color: transparent;
+  }
+
+  .sub-content {
+    padding: 1em 1em 0 1em;
+  }
+
+  .sub-content-buttons {
+    height: 5em;
+    width: 5em;
+  }
+
+  .main-content {
+    padding: 1em 1em 0 1em;
+  }
+
+  .tabs-navigation {
+    padding-top: 2em;
+  }
+
+  .small-tab-for-break {
+    display: unset; 
+  }
+
+  .remove-tab {
+    display: none;
+  }
+
+  .social-media-buttons {
+    flex-direction: column; 
+  }
+
+  .social-media-button-common-peram {
+    width: 100%;
+    padding: 1.5em 6%;
+  }
+
+  .icons {
+    margin-right: 32%;
+  }
+
+  .bottom-page-content {
+    flex-direction: column;
+  }
+
+  .bottom-page-info-containers {
+    width: 100%; 
+  }
 }
 
+@media only screen and (max-width: 630px) {
+  .main-content {
+    padding: 0 1em 0 1em;
+  }
 
+  .pie-graphs {
+    flex-direction: column;
+    height: 100%;
+  }
 
+  .donut {
+    width: 100%;
+  }
+
+  .graphs-and-buttons {
+    margin-bottom: 2em;
+  }
+
+  .main-page-employee-info {
+    flex-direction: column;
+    padding: 1em 0;
+    margin: 0 0.5em;
+  }
+
+  .top-info-main-page {
+    padding: 1.3em 0.5em;
+  }
+
+  .edit-button-icon {
+    display: none;
+  }
+
+  .edit-button {
+    justify-content: center;
+    height: 2em;
+    width: 3em;
+  }
+
+  .main-content-headings {
+    width: 100%;
+    margin-bottom: .5em;
+  }
+
+  .main-paragraph-info {
+    width: 100%;
+  }
+
+  .li-with-image-and-content {
+    padding: 1em 0;
+    margin: 0 0.5em;
+  }
+
+  .main-content-li-picture {
+    width: 5em;
+  }
+
+  .bottom-info-li {
+    margin: 0 0.5em;
+    padding: 1em 0;
+    flex-direction: column;
+  }
+
+  .bottom-info-heading {
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+
+  .social-media-button-common-peram {
+    padding: 0.5em 4%;
+  }
+
+  .icons {
+    margin-right: 14%;
+  }
+}
 
 
