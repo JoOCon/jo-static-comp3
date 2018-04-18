@@ -8,44 +8,44 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <aside class="left-side">
+  <aside class="left-side" role="complementary">
     <section class="profile aside-elements">
-      <img class="profile-picture" src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-futurama-billy-west.jpg">
-      <h1 class="profile-name">Newton Barley</h1>
+      <img class="profile-picture" alt="profile picture of Phillip J Fry" src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/p-futurama-billy-west.jpg">
+      <h1 class="profile-name">Phillip J Fry</h1>
     </section>
-    <section class="aside-elements">
-      <h1 class="aside-headings">Main</h1>
-      <a class="aside-links" href=""><span class="home-image aside-icon"></span>HOME</a>
-      <a class="aside-links" href=""><span class="jobs-image aside-icon"></span>JOBS</a>
-      <a class="aside-links" href=""><span class="resumes-image aside-icon"></span>RESUMES</a>
-      <a class="aside-links" href=""><span class="tasks-image aside-icon"></span>TASKS</a>
-      <a class="aside-links" href=""><span class="calander-image aside-icon"></span>CALENDAR</a>
+    <section class="aside-elements" tabindex="0">
+      <h1 class="aside-headings" tabindex="1">Main</h1>
+      <a class="aside-links" href="" tabindex="2"><span class="home-image aside-icon" aria-hidden></span>HOME</a>
+      <a class="aside-links" href="" tabindex="2"><span class="jobs-image aside-icon" aria-hidden></span>JOBS</a>
+      <a class="aside-links" href="" tabindex="2"><span class="resumes-image aside-icon" aria-hidden></span>RESUMES</a>
+      <a class="aside-links" href="" tabindex="2"><span class="tasks-image aside-icon" aria-hidden></span>TASKS</a>
+      <a class="aside-links" href="" tabindex="2"><span class="calander-image aside-icon" aria-hidden></span>CALENDAR</a>
     </section>
-    <section class="aside-elements">
-      <h1 class="aside-headings">Admin</h1>
-      <a class="aside-links" href=""><span class="user-image aside-icon"></span>USERS</a>
-      <a class="aside-links" href=""><span class="locations-image aside-icon"></span>LOCATIONS</a>
-      <a class="aside-links" href=""><span class="workflows-image aside-icon"></span>WORKFLOWS</a>
-      <a class="aside-links" href=""><span class="job-boards-image aside-icon"></span>JOB BOARDS</a>
-      <a class="aside-links" href=""><span class="social-image aside-icon"></span>SOCIAL</a>
+    <section class="aside-elements" tabindex="0">
+      <h1 class="aside-headings" tabindex="1">Admin</h1>
+      <a class="aside-links" href="" tabindex="2"><span class="user-image aside-icon" aria-hidden></span>USERS</a>
+      <a class="aside-links" href="" tabindex="2"><span class="locations-image aside-icon" aria-hidden></span>LOCATIONS</a>
+      <a class="aside-links" href="" tabindex="2"><span class="workflows-image aside-icon" aria-hidden></span>WORKFLOWS</a>
+      <a class="aside-links" href="" tabindex="2"><span class="job-boards-image aside-icon" aria-hidden></span>JOB BOARDS</a>
+      <a class="aside-links" href="" tabindex="2"><span class="social-image aside-icon" aria-hidden></span>SOCIAL</a>
     </section>
-    <section class="aside-elements">
-      <h1 class="aside-headings">Categories</h1>
-      <a class="aside-links" href=""><span class="administrative-image aside-icon"></span>Administrative</a>
-      <a class="aside-links" href=""><span class="design-image aside-icon"></span>Design</a>
-      <a class="aside-links" href=""><span class="executive-image aside-icon"></span>Executive</a>
-      <a class="aside-links" href=""><span class="human-resource-image aside-icon"></span>Human Resources</a>
+    <section class="aside-elements" tabindex="0">
+      <h1 class="aside-headings" tabindex="1">Categories</h1>
+      <a class="aside-links" href="" tabindex="2"><span class="administrative-image aside-icon" aria-hidden></span>Administrative</a>
+      <a class="aside-links" href="" tabindex="2"><span class="design-image aside-icon" aria-hidden></span>Design</a>
+      <a class="aside-links" href="" tabindex="2"><span class="executive-image aside-icon" aria-hidden></span>Executive</a>
+      <a class="aside-links" href="" tabindex="2"><span class="human-resource-image aside-icon" aria-hidden></span>Human Resources</a>
     </section>
   </aside>
-  <main class="right-side-page">
+  <main class="right-side-page" role="Main Content" tabindex="0">
     <header class="top-bar">
       <button class="menu top-bar-icons"><a href=""></a></button>
-      <input class="search" type="" name="seach" placeholder="Search for a job, task or resume">
+      <input class="search" type="" name="seach" placeholder="Search for a job, task or resume" aria-label="Search through site content">
       <button class="user top-bar-icons"><a href=""></a></button>
       <button class="calender top-bar-icons"><a href=""></a></button>
       <button class="cube top-bar-icons"><a href=""></a></button>
     </header>
-    <section class="sub-content">
+    <section class="sub-content" role="sub-content" tabindex="0">
       <article class="sub-content-top-container">
         <section>
           <h2 class="sub-content-header">Customer Service Representative</h1>
@@ -58,7 +58,7 @@
           <button class="trash-button sub-content-buttons"></button>
         </section>
       </article>
-      <nav class="tabs-navigation">
+      <nav class="tabs-navigation" tabindex="0">
         <a class="tabs small-tab-for-break" href="">CLICK FOR MORE INFO</a>
         <a class="tabs remove-tab" href="">SUMMARY</a>
         <a class="tabs remove-tab" href="">APPLICANTS</a>
@@ -69,29 +69,53 @@
         <a class="tabs remove-tab" href="">NOTIFICATIONS</a>
       </nav>
     </section>
-    <section class="main-content">
-      <section class="graphs-and-buttons">
+    <section class="main-content" role="main content">
+      <section class="graphs-and-buttons" role="employemnt graphs and info" tabindex="0">
         <section class="pie-container">
           <section class="pie-graphs">
           <section class="pie-graph">
-            <svg viewBox="0 0 42 42" class="donut">
+            <svg viewBox="0 0 42 42" class="donut" aria-hidden>
               <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
               <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
-              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="0"></circle>
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#4a74ce" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="0"></circle>
+              <g class="chart-text">
+                <text x="50%" y="50%" class="chart-number">
+                  10
+                </text>
+                <text x="50%" y="50%" class="chart-label">
+                  Beers
+                </text>
+              </g>
             </svg>
           </section>          
           <section class="pie-graph">
-            <svg viewBox="0 0 42 42" class="donut">
+            <svg viewBox="0 0 42 42" class="donut" aria-hidden>
               <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
               <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
               <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="0"></circle>
+              <g class="chart-text">
+                <text x="50%" y="50%" class="chart-number">
+                  10
+                </text>
+                <text x="50%" y="50%" class="chart-label">
+                  Beers
+                </text>
+              </g>
             </svg>
           </section> 
           <section class="pie-graph">
-            <svg viewBox="0 0 42 42" class="donut">
+            <svg viewBox="0 0 42 42" class="donut" aria-hidden>
               <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
               <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="3"></circle>
-              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="0"></circle>
+              <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#3eaa2f" stroke-width="3" stroke-dasharray="85 15" stroke-dashoffset="0"></circle>
+              <g class="chart-text">
+                <text x="50%" y="50%" class="chart-number">
+                  10
+                </text>
+                <text x="50%" y="50%" class="chart-label">
+                  Beers
+                </text>
+              </g>
             </svg>
           </section>
           </section>
@@ -106,7 +130,7 @@
         </article>
       </section>
       <section class="main-page-container">
-        <section class="main-page-content">
+        <section class="main-page-content" tabindex="0">
           <ul>
             <li class="top-info-main-page">
               <h5 class="top-main-content-heading">JOB DESCRIPTION</h5>
@@ -146,7 +170,7 @@
             </li>
           </ul>
         </section>
-        <section class="main-page-socialmedia">
+        <section class="main-page-socialmedia" role="social media section" tabindex="0">
           <section class="social-media-buttons">
             <button class="facebook-button social-media-button-common-peram"><div class="facebook-icon icons"></div>Post to Facebook</button>
             <button class="twitter-button social-media-button-common-peram"><div class="twitter-icon icons"></div>Tweet this Job</button>
@@ -183,8 +207,3 @@
   </main>
 </body>
 </html>
-
-
-
-
-
